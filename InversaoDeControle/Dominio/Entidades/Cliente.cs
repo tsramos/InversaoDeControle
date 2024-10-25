@@ -2,7 +2,7 @@
 
 namespace InversaoDeControle.Dominio.Entidades
 {
-    internal class Cliente
+    internal class Cliente : EntidadeBase
     {
         public Cliente(string nome, DateTime nascimento, string email)
         {
